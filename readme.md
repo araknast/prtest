@@ -22,7 +22,7 @@ crawled by [BDCS](https://github.com/araknast/bird-dung-crab-spider).
 containing the word `channing`, `<h1>` elements containting the word `tatum`,
 and `<p>` elements containing the word `news`.
 - The list of valid elements is as follows:
-    - `h(n)` where `n` is a number 1-6 - For all header tags `<h1>` through `<h6>`.
+    - `h(n)` where `n` is a number 1-6 - For all header tags `<h1>` through `<h6>`
     - `t` - For the title of a page
     - `w` - For all `<p>` tags in a page
 
