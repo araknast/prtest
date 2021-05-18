@@ -14,7 +14,7 @@ matches = db.zkeys(search_terms.pop(), 0, 0, 1, -1)
 for search_term in search_terms:
     matches = set(matches).intersection(db.zkeys(search_term, 0, 0, 1, -1))
 
-matches = list(map(lambda x: (x, float(db.hget("pr2",x.decode("utf-8").split("/")[2]))), matches))
+matches = list(map(lambda x: (x, float(db.hget("pr",x.decode("utf-8").split("/")[2]))), matches))
 matches = sorted(matches, key=lambda x: x[1], reverse=True)
 print("Found {} results for \"{}\"".format(len(matches), search_query))
 
