@@ -13,7 +13,7 @@ crawled by [BDCS](https://github.com/araknast/bird-dung-crab-spider).
       the script if you want.
 - After you have calculated PageRanks you can search the database using
   `./search.py "<search query>"`.
-- Seach query consist of any number of globs in the form `<element>:<term>`.
+- Seach querys consist of any number of globs in the form `<element>:<term>`.
 - For example a search in the form `h1:channing h1:tatum` will find websites
   with `<h1>` elements containting the words `channing` and `tatum`.
 - You can also combine elements to fomulate a search like `t:channing h1:tatum
