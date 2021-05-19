@@ -29,4 +29,4 @@ and `<p>` elements containing the word `news`.
 - I don't even know if I implemented PageRank right.
 
 # License
-See the "License" section of the BDCS Readme for more info on the AGPL license.
+See the [License](https://github.com/araknast/bird-dung-crab-spider#license) section of the BDCS Readme for more info on the AGPL license.
